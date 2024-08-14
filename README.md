@@ -1,5 +1,7 @@
 # Bet Monitor
-Live bet monitor & feed built for online gambling operator. SRC Code not provided here for security. 
+Live bet monitor & feed built for online gambling operator.
+The source code is not available to the public for security purposes, however potential employers are welcome to enquire and I can give live demonstrations.
+
 
 - Previous monitoring program outdated, errored and unhelpful.
 - When a bet is placed, function within the system generates a file containing summary of bet details.
