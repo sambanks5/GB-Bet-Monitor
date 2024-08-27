@@ -9,6 +9,16 @@ The source code is not available to the public for security purposes, however po
 - Auto-generated text files were displaying a lot of unneeded information, traders would struggle to 'at a glance' understand the wager info.
 - Finally, the main limitation is that the betting 'database' containing full user, bet and event information is fully encrypted.
 
+
+
+# TODO:
+Convert JSON to SQLITE.
+- Originally coded using JSON for storing the bet database. With time, this has caused problems with concurrent read/write operations across instances.
+  Am now in the process of firstly moving all the JSON database files to one SQLite database. From there, I will need to re-write the import handling from Database -> Bet Feed.
+
+
+
+
 Below is the old program used (hidden customer refs):
 ![image](https://github.com/sambanks5/BetMonitor/assets/121309218/cd0dfb2b-7c0c-4017-906b-2d22b1f1b211)
 
