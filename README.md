@@ -11,11 +11,6 @@ The source code is not available to the public for security purposes, however po
 
 
 
-# TODO:
-Convert JSON to SQLITE.
-- Originally coded using JSON for storing the bet database. With time, this has caused problems with concurrent read/write operations across instances.
-  Am now in the process of firstly moving all the JSON database files to one SQLite database. From there, I will need to re-write the import handling from Database -> Bet Feed.
-
 
 
 
